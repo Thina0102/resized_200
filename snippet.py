@@ -1,4 +1,4 @@
-from ZSIC import ZeroShotImageClassification
+from zsic import ZeroShotImageClassification
 
 #Spanish + Vision Transformer as vision backbone
 
@@ -21,7 +21,7 @@ Prints the following
 
 #English + CNN based model as vision backbone
 
-from ZSIC import ZeroShotImageClassification
+from zsic import ZeroShotImageClassification
 
 zsic = ZeroShotImageClassification(model="RN50")
 
